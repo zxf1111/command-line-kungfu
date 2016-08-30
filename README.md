@@ -21,4 +21,4 @@ E: mv test.{txt,doc}
   mv test{,.doc}
 -------
 df -h |awk'{sum += $3} END {print sum}'###sum all the numbers in a given column of a text###
-
+---
