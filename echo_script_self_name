@@ -1,0 +1,3 @@
+echo $BASH_SOURCE
+
+echo $(basename $0)
