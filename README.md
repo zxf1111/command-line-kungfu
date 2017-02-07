@@ -22,3 +22,4 @@ E: mv test.{txt,doc}
 -------
 df -h |awk'{sum += $3} END {print sum}'###sum all the numbers in a given column of a text###
 ---
+find . -type f -name ".txt" -delete == find . -type f -name ".txt" -exec rm -r {} \; == find . -type f -name ".txt" -exec rm -r {} +
